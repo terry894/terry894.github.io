@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 
 <body>
@@ -31,53 +31,44 @@
                 <a href="#experience">Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
                 <a href="#projects">Projects</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
             </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
         </ul>
     </header>
-    <!-- End header -->
-
-<!--    <div id="lead">-->
-<!--        <div id="lead-content">-->
-<!--            <h1>Ryan Fitzgerald</h1>-->
-<!--            <h2>Software Engineer</h2>-->
-<!--            <a href="#" class="btn-rounded-white">Download Resume</a>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End #lead-content &ndash;&gt;-->
-
-<!--        <div id="lead-overlay"></div>-->
-
-<!--        <div id="lead-down">-->
-<!--            <span>-->
-<!--                <i class="fa fa-chevron-down" aria-hidden="true"></i>-->
-<!--            </span>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; End #lead-down &ndash;&gt;-->
-<!--    </div>-->
-    <!-- End #lead -->
 
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <h2 class="heading">About Me</h2>
-                    <img src="images/PicsArt_03-12-02.51.43.png" />
+                    <img id="profile" src="images/PicsArt_03-12-02.51.43.png" />
                 </div>
-                <div class="col-md-8">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
-                    </p>
+                <div class="col-md-8" style="padding-top:75px">
+                    <h2>최명훈 MyeongHun Choi</h2>
+                    <div id="email">
+                        <i class="far fa-envelope"></i>
+                        <span>terry894@naver.com</span>
+                    </div>
+                    <div id="github">
+                        <i class="fab fa-github"></i>
+                        <span>
+                            <a href="">
+                                https://github.com/terry894
+                            </a>
+                            </span>
+                    </div>
+                    <div id="phone">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>010-9802-7576</span>
+                    </div>
+
+                    <P>
+                        도전적으로 창의적인 생각을 실천하는 개발자, 최명훈 입니다.
+                    </P>
+
                 </div>
             </div>
         </div>
@@ -87,80 +78,64 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="March 2018 – November 2019">
+                <h3>it 보안 동아리 활동</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    sql injection 관련 스터디 및 세미나 발표
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="August 2018 – September 2018">
+                <h3>트라이 캐치 미디어 현장실습</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    전반적인 코딩 교육용(JAVA, Python, C++ ..) 게임 개발 및 기획
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="August 2019 – February 2020">
+                <h3>에이콘아카데미 국비지원 교육</h3>
+                <h4>자바기반 스마트웹 개발자 양성 </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    - JAVA 프로그래밍 언어의 기초문법과 데이터 조작방법을 습득하고 다양한 API를 활용하여 응용 소프트웨어 애플리 케이션을 구현 </br>
+                    - 관계형 데이터베이스에서 SQL을 사용하여 데이터를 정의, 조작, 제어 교육 </br>
+                    - 서버프로그램 개발을 위한 Servlet/JSP, Spring, MVC, MyBatis Framework 을 구현  </br>
+                    - HTML5,CSS3,ES6,React.js.. 등의 프론트엔드 교육
+                </p>
+            </div>
+
+            <div data-date="February 2020 – September 2020">
+                <h3>이카운트 사원</h3>
+                <h4>WEB 기반 ERP 프로그램 개발</h4>
+                <p>
+                    - C#, .NET을 이용한 restful API 개발 </br>
+                    - JavaScript, 자체프레임워크(옵저버패턴 기반)를 활용한 프론트엔드 개발 </br>
+                    - 내부 구조 공통화 작업 및 최신버전으로 기존 비즈니스 로직 리펙토링 작업 </br>
+                    - MS-SQL, MySQL 활용 데이터 관리
                 </p>
             </div>
         </div>
     </div>
     <!-- End #experience -->
 
-    <div id="education">
-        <h2 class="heading">Education</h2>
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
-        </div>
-        <!-- End .education-block -->
-
-        <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-            </ul>
-        </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
     <div id="projects" class="background-alt">
         <h2 class="heading">Projects</h2>
+        <a href="https://docs.google.com/uc?export=download&id=1Zj93jIY2gKYZkVVtcWSRv2se0vd52eLq">View Project with PDF</a>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/INSSA.png"  />
                     </div>
                     <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    <div class="project-info" >
+                        <h3>INSSA</h3>
+                        <p>asdadassad
+                            게임,영화,연극,음악 분야에서 관심 받지 못했던 인디컨텐츠 들을 홍보 해주고 커뮤니티의 역할과 대관 시설 공유와 같은 기타 편의 기능을 제공해 주는 반응형 웹서비스 개발
                         </p>
-                        <a href="#">View Project</a>
+                        <p>
+                            사용기술: MySQL, Spring, Java, JavaScript, Tomcat, Maven, CSS, HTML, Bootstrapk, JSP
+                        </p>
+                        <p> 개발기간: 2019.02 ~ 2019.05</p>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -168,77 +143,79 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img src="images/HONEY_BEE.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Project Name Here</h3>
+                        <h3>Honey Bee</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                            스페이스바를 이용해서 x,y 축을 맞추면 해당 위치에 꿀벌이 날아가서 꿀을 가져와 꿀 통에 담는 방식의 java.awt 패키지와 Thread 를 활용하여 Java 로만 개발한 아동용 게임
                         </p>
-                        <a href="#">View Project</a>
+                        <p>
+                            사용기술: Java
+                        </p>
+                        <p> 개발기간: 2019.08 ~ 2019.08</p>
                     </div>
                     <!-- End .project-info -->
                 </div>
                 <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/StockMarcket.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>STOCK MARKET</h3>
+                        <p>
+                            기본적인 주식 시뮬레이션 외에도 캡쳐, 자산 추의, 커뮤니티, 검색, 분석과 같은 기타 편의 기능들을 제공하는 모의 주식 투자 반응형 웹서비스 개발
+                        </p>
+                        <p>
+                            사용기술: Maven, ES6, html5, CSS, Java, JSP, SpringBoot, Ajax, MyBatis, jQuery, MySQL, Tomcat v9.0
+                        </p>
+                        <p> 개발기간: 2019.11 ~ 2020.01</p>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
             </div>
         </div>
     </div>
     <!-- End #projects -->
 
-    <div id="skills">
+    <div id="skills" class="background-alt">
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
+            <li>Maven</li>
+            <li>Spring</li>
+            <li>SpringBoot</li>
+            <li>Jsp</li>
+            <li>MyBatis</li>
+            <li>MySQL</li>
+            <li>MSSQL</li>
+            <li>.NET</li>
+            <li>MVC</li>
             <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
             <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
             <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>git</li>
         </ul>
     </div>
     <!-- End #skills -->
-
-    <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2020 YOUR NAME
+                        Copyright &copy; 2021 CHOI MYEONGHUN
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -246,28 +223,7 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </footer>
